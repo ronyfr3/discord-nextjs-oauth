@@ -1,5 +1,4 @@
 import React from "react"
-import Link from "next/link"
 import PropTypes from "prop-types"
 import * as settings from "../settings"
 
@@ -30,40 +29,12 @@ class Header extends React.Component {
           }}
         >
           <li>
-            <Link href="/">
-              <a title={"Home"}>Home</a>
-            </Link>
+            <a
+              href={`https://discordapp.com/api/oauth2/authorize?client_id=${settings.clientID}&redirect_uri=${settings.redirect_uri}&response_type=code&scope=guilds%20identify`}
+            >
+              Login
+            </a>
           </li>
-          {this.isLoggedIn ? (
-            ""
-          ) : (
-            <li>
-              <a
-                href={`https://discordapp.com/api/oauth2/authorize?client_id=${settings.clientID}&redirect_uri=${settings.redirect_uri}&response_type=code&scope=guilds%20identify`}
-              >
-                Login
-              </a>
-            </li>
-          )}
-
-          {this.isLoggedIn ? (
-            <li>
-              <Link href="/logout">
-                <a title="Logout">Logout Page</a>
-              </Link>
-            </li>
-          ) : (
-            ""
-          )}
-          {this.isLoggedIn ? (
-            <li>
-              <Link href="/secret">
-                <a title="Secret">Secret Page</a>
-              </Link>
-            </li>
-          ) : (
-            ""
-          )}
         </ul>
       </nav>
     )
