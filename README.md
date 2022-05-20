@@ -1,9 +1,10 @@
-# Discord-Oauth2-Next.js-App
-You can run : `npm run start` to start the server. visit: http://localhost:3000/
-You can run : `npm run dev` to start the developpement server. visit: http://localhost:3000/
+# Discord-Oauth2
+Please install all packages and then
+run : `npm run start` to start the server. visit: http://localhost:3000/
 
 # NextJS Error
-May be you can see this error after login: Unhandled Rejection (ChunkLoadError): Loading chunk 0 failed.
+May be you can see this error after login:
+Unhandled Rejection (ChunkLoadError): Loading chunk 0 failed.
 (error: http://localhost:3000/_next/static/chunks/0.js).
 
 This error is nextjs caching error. Please do a hard refresh then it will be ok.
