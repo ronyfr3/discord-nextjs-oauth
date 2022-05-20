@@ -1,12 +1,14 @@
 # Discord-Oauth2-Next.js-App
+You can run : `npm run start` to start the server. visit: http://localhost:3000/
+You can run : `npm run dev` to start the developpement server. visit: http://localhost:3000/
 
-Simple Next.js App with Discord Oauth2 integrated.
+# NextJS Error
+May be you can see this error after login: Unhandled Rejection (ChunkLoadError): Loading chunk 0 failed.
+(error: http://localhost:3000/_next/static/chunks/0.js).
 
-# Install
+This error is nextjs caching error. Please do a hard refresh then it will be ok.
 
-For it to work, please add your discord application `client id`, and `client secret` in `settings.js` file.
+# Note that
+Please put the following client id and secret in env file.I have put it in the local file directly.Make sure you put your own credentials.
 
-Then run in the terminal : `npm run build`.
-And after that, `npm run start` to start the server.
-
-You can also run : `npm run dev` to start the developpement server.
+# Thank you

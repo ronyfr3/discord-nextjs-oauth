@@ -1,12 +1,5 @@
-import SecureTemplate from '../public/secure-template';
-import React from 'react'
+import SecureTemplate from "../public/secure-template"
 
-function Secret(){
-    return(
-        <div>
-            This is the secret page ! You can only see it when you are logged in !
-        </div>
-    );
-}
+const Secret = () => <p>You can only see it when you are logged in !</p>
 
 export default SecureTemplate(Secret)
