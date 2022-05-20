@@ -1,0 +1,1 @@
+{"name":"discord-Oauth","version":"0.1.0","private":false,"scripts":{"server":"next dev","build":"next build","start":"next start"},"dependencies":{"axios":"^0.19.0","js-cookie":"^2.2.1","next":"9.1.2","prop-types":"^15.7.2","react":"16.11.0","react-dom":"^16.11.0"},"readme":"ERROR: No README data found!","_id":"discord-Oauth@0.1.0"}

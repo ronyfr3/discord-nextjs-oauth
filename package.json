@@ -1,9 +1,9 @@
 {
-  "name": "up-dashboard",
+  "name": "discord-Oauth",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
-    "dev": "next dev",
+    "server": "next dev",
     "build": "next build",
     "start": "next start"
   },
